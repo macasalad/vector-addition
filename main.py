@@ -9,7 +9,7 @@ if __name__ == "__main__":
     app_logo = Image.open("app_logo.png")
     st.set_page_config(
         page_title = "ASHS Student-Hazard App",
-        page_icon = emoji,
+        page_icon = app_logo,
         initial_sidebar_state = "expanded",
     )
     
