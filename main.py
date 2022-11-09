@@ -17,5 +17,5 @@ if __name__ == "__main__":
         page_icon=app_logo,
     )
     
-    with st.expander("Credits", expanded = False):
-        st.markdown("""wahaha credits""")
+with st.expander("Credits", expanded = False):
+    st.markdown("""wahaha credits""")
