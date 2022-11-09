@@ -14,6 +14,3 @@ if __name__ == "__main__":
         page_title="Vector Addition Calculator",
         page_icon=app_logo,
     )
-    
-with st.expander("Credits"):
-    st.markdown("""wahaha credits""")
