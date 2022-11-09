@@ -3,12 +3,10 @@ from PIL import Image
 import numpy as np
 
 if __name__ == "__main__":
-
-    st.markdown("""# Vector Addition Calculator
-    hahahahahahahaha lagay ng description""")
+    
     applogo = Image.open("app_logo.png")
     st.set_page_config(
-        page_title="Vector Addition",
+        page_title="hasdhgashdghadshg im tireddd!!",
         page_icon=applogo,
     )
     
