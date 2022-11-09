@@ -8,8 +8,9 @@ if __name__ == "__main__":
     hahahahahahahaha lagay ng description""")
     app_logo = Image.open("app_logo.png")
     st.set_page_config(
-        page_title="Vector Addition Calculator",
-        page_icon=app_logo,
+        page_title = "ASHS Student-Hazard App",
+        page_icon = emoji,
+        initial_sidebar_state = "expanded",
     )
     
     resultant_vector_x = 0
