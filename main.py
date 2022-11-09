@@ -1,12 +1,9 @@
 import streamlit as st
-import pandas as pd
-
 from PIL import Image
-
-import os
-import shutil
+import numpy as np
 
 if __name__ == "__main__":
+
     st.markdown("""# Vector Addition Calculator
     hahahahahahahaha lagay ng description""")
     app_logo = Image.open("app_logo.png")
