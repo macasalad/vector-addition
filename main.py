@@ -8,6 +8,12 @@ import shutil
 
 st.markdown("""# Vector Addition Calculator
 hahahahahahahaha lagay ng description""")
+
+app_logo = Image.open("app_logo.png")
+st.set_page_config(
+    page_title="Vector Addition Calculator",
+    page_icon=app_logo,
+)
     
 with st.expander("Credits"):
     st.markdown("""wahaha credits""")
