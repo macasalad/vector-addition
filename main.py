@@ -6,7 +6,7 @@ from PIL import Image
 import os
 import shutil
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     st.markdown("""# Vector Addition Calculator
     hahahahahahahaha lagay ng description""")
     app_logo = Image.open("app_logo.png")
